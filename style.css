@@ -26,10 +26,13 @@ h1 {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 60px;
+    
 }
 
 nav{
     width: 50%;
+    list-style: none;
+
 }
 
 ul{
@@ -44,10 +47,14 @@ li{
     font-size: 21px;
     color: #fff;
     cursor: pointer;
+    list-style: none;
+
 }
 
 li:hover {
     color: #fff;
+    list-style: none;
+
 }
 
 .arrows {
@@ -148,12 +155,14 @@ li:hover {
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #d870db;
+    background-color: #be92be;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
     cursor: pointer;
+    transition: 1.5s;
 }
+
 .divider {
     width: 100%;
     border-top: .5px solid #bfbfbf;
@@ -268,11 +277,36 @@ form {
     height: 500px;
     padding: 20px;
     border-radius: 8px;
+    background-image: url('./projectbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
 
 }
 
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 250px;
+    
+
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+i:hover {
+   color: black;
+}
+
+
 label {
 display: block;
+color: white;
 
 }
 
@@ -315,11 +349,12 @@ footer {
 button {
     width: 100%;
     border: none;
+    cursor: pointer;
     background:#D8;
     color: #333;
     border-radius: 8px;
     padding: 8px 12px;
-
+    background:#d870db;
 }
 
 #logo {
